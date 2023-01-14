@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+    <meta name="description" content="Pokemon Website" />
+    <meta name="keywords" content="Pokemon, game, fun, flashcards" />
+    <meta name="author" content="Noah Chung" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+     <link rel="stylesheet" type="text/css" href="style.css" />
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/Mylogo.png"type="image/x-icon"/>
+   </head>
+    <body onload="getRandom()"> 
+          <header>
+      <img src="assets/logo.png" alt="logo of our website"
+width="150px"
+      <span><a href ="index.html">Home</a></span>
+      <span><a href="https://www.pokemon.com">About pokemon</a></span>
+      <span><a href="https://pokemondb.net/">Pokemon Database</a></span> 
+      <span><a href="#">Flashcard</a></span>
+    </header>
+
+    <div>
+      <div id="flashcard-term">
+        <h2>Term</h2>
+      </div>
+      
+      <div id="flashcard-definition">
+        <p>Definition</p>
+      </div>
+    </div>
+
+      <div class="flashcard-btn">
+        <button id="flash-def-btn" onclick="showdef()">Show Definition</button>
+        <button onclick="getRandom()">Next Term</button>
+      </div>
+      
+             <footer>
+          <p>
+            <i class="fa-solid fa-star"></i> Made with hard effort by Noah, 2022 <i class="fa-solid fa-star"></i>
+          </p>
+        </footer>
+      <script src="script.js"></script>
+    </body>
+  </html>
+    
+      
